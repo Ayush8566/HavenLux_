@@ -19,8 +19,8 @@ const PORT = process.env.PORT || 9000;
 const connectDB = async () => {
   try {
     await mongoose.connect(process.env.MONGO);
-    // console.log("mongodb+srv://kumarayush59567:kumarayush59567@havenlux.zffiw7c.mongodb.net/");
-    console.log("MongoDB connected");
+
+    // console.log("MongoDB connected");
     app.listen(PORT, () => {
       console.log(`Server running on http://localhost:${PORT}`);
     });
@@ -50,7 +50,3 @@ app.use((err, req, res, next) => {
     message,
   });
 });
-
-// app.listen(PORT, () => {
-//   console.log(`Server running on http://localhost:${PORT}`);
-// });
