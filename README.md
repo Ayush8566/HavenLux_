@@ -96,14 +96,6 @@ havenluxe/
    npm start
    ```
 
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please follow the [Contributing Guidelines](CONTRIBUTING.md) and submit a [Pull Request](.github/pull_request_template.md).
-
-
----
 
 ## 👤 Author
 
